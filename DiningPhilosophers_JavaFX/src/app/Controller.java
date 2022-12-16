@@ -89,14 +89,14 @@ public class Controller implements Initializable {
         philosophers[4] = new Philosopher(chopsticks[4], chopsticks[0], 4, "kant", kant, kantImgs[0], kantImgs[1], kantImgs[2], logTextArea);
     }
 
-    private ObservableList<Integer> generateSelectionValues(int lowerBound, int higherBound) {
-        ObservableList<Integer> options = FXCollections.observableArrayList();
-        for (int i = lowerBound; i <= higherBound; i++) {
-            options.add(i);
-        }
-
-        return options;
-    }
+//    private ObservableList<Integer> generateSelectionValues(int lowerBound, int higherBound) {
+//        ObservableList<Integer> options = FXCollections.observableArrayList();
+//        for (int i = lowerBound; i <= higherBound; i++) {
+//            options.add(i);
+//        }
+//
+//        return options;
+//    }
 
     public void startAction(ActionEvent actionEvent) {
         System.out.println("Started Simulation");
