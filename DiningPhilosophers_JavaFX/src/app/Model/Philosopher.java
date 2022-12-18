@@ -15,6 +15,7 @@ public class Philosopher implements Runnable {
     private int id;
     private String name;
     private State state;
+
     private ImageView headView;
     private Image thinkingImg;
     private Image hungryImg;
@@ -80,7 +81,7 @@ public class Philosopher implements Runnable {
         }
     }
 
-// Eat Without Deadlock
+// To avoid Deadlock
     private void eat() {
         if (leftChopstick.pick(this)){           //left chopstick is available
             try {
