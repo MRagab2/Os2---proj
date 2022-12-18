@@ -2,8 +2,6 @@ package app;
 
 import app.Model.Chopstick;
 import app.Model.Philosopher;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -22,20 +20,20 @@ public class Controller implements Initializable {
 
     //Philosophers
     @FXML
-    private ImageView aristotle;
-    private Image[] aristotleImgs = new Image[3];
+    private ImageView el_Far;
+    private Image[] el_FarImg = new Image[3];
     @FXML
-    private ImageView descartes;
-    private Image[] descartesImgs = new Image[3];
+    private ImageView ragabola;
+    private Image[] ragabolaImg = new Image[3];
     @FXML
-    private ImageView russell;
-    private Image[] russellImgs = new Image[3];
+    private ImageView hobz;
+    private Image[] hobzImg = new Image[3];
     @FXML
-    private ImageView marx;
-    private Image[] marxImgs = new Image[3];
+    private ImageView ali;
+    private Image[] aliImg = new Image[3];
     @FXML
-    private ImageView kant;
-    private Image[] kantImgs = new Image[3];
+    private ImageView caren;
+    private Image[] carenImg = new Image[3];
 
     //Chopsticks
     @FXML
@@ -56,25 +54,25 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        aristotleImgs[0] = new Image(getClass().getResourceAsStream("img/Aristotle-Thinking.png"));
-        aristotleImgs[1] = new Image(getClass().getResourceAsStream("img/Aristotle-Hungry.png"));
-        aristotleImgs[2] = new Image(getClass().getResourceAsStream("img/Aristotle-Eating.png"));
+        el_FarImg[0] = new Image(getClass().getResourceAsStream("img/eyad-think.png"));
+        el_FarImg[1] = new Image(getClass().getResourceAsStream("img/eyad-hungry.png"));
+        el_FarImg[2] = new Image(getClass().getResourceAsStream("img/eyad-eat.png"));
 
-        descartesImgs[0] = new Image(getClass().getResourceAsStream("img/Descartes-Thinking.png"));
-        descartesImgs[1] = new Image(getClass().getResourceAsStream("img/Descartes-Hungry.png"));
-        descartesImgs[2] = new Image(getClass().getResourceAsStream("img/Descartes-Eating.png"));
+        ragabolaImg[0] = new Image(getClass().getResourceAsStream("img/ragab-think.png"));
+        ragabolaImg[1] = new Image(getClass().getResourceAsStream("img/ragab-hungry.png"));
+        ragabolaImg[2] = new Image(getClass().getResourceAsStream("img/ragab-eat.png"));
 
-        russellImgs[0] = new Image(getClass().getResourceAsStream("img/Russell-Thinking.png"));
-        russellImgs[1] = new Image(getClass().getResourceAsStream("img/Russell-Hungry.png"));
-        russellImgs[2] = new Image(getClass().getResourceAsStream("img/Russell-Eating.png"));
+        hobzImg[0] = new Image(getClass().getResourceAsStream("img/ehab-think.png"));
+        hobzImg[1] = new Image(getClass().getResourceAsStream("img/ehab-hungry.png"));
+        hobzImg[2] = new Image(getClass().getResourceAsStream("img/ehab-eat.png"));
 
-        marxImgs[0] = new Image(getClass().getResourceAsStream("img/Marx-Thinking.png"));
-        marxImgs[1] = new Image(getClass().getResourceAsStream("img/Marx-Hungry.png"));
-        marxImgs[2] = new Image(getClass().getResourceAsStream("img/Marx-Eating.png"));
+        aliImg[0] = new Image(getClass().getResourceAsStream("img/ali-think.png"));
+        aliImg[1] = new Image(getClass().getResourceAsStream("img/ali-hungry.png"));
+        aliImg[2] = new Image(getClass().getResourceAsStream("img/ali-eat.png"));
 
-        kantImgs[0] = new Image(getClass().getResourceAsStream("img/Kant-Thinking.png"));
-        kantImgs[1] = new Image(getClass().getResourceAsStream("img/Kant-Hungry.png"));
-        kantImgs[2] = new Image(getClass().getResourceAsStream("img/Kant-Eating.png"));
+        carenImg[0] = new Image(getClass().getResourceAsStream("img/caren-think.png"));
+        carenImg[1] = new Image(getClass().getResourceAsStream("img/caren-hungry.png"));
+        carenImg[2] = new Image(getClass().getResourceAsStream("img/caren-eat.png"));
 
         for (int i = 0; i < 5; i++) {
             chopsticks[i] = new Chopstick(i, logTextArea);
@@ -82,18 +80,14 @@ public class Controller implements Initializable {
         assignChopstickToItsView();
 
         //Create philosophers
-        philosophers[0] = new Philosopher(chopsticks[0], chopsticks[1], 0, "aristotle", aristotle, aristotleImgs[0], aristotleImgs[1], aristotleImgs[2], logTextArea);
-        philosophers[1] = new Philosopher(chopsticks[1], chopsticks[2], 1, "descartes", descartes, descartesImgs[0], descartesImgs[1], descartesImgs[2], logTextArea);
-        philosophers[2] = new Philosopher(chopsticks[2], chopsticks[3], 2, "russel", russell, russellImgs[0], russellImgs[1], russellImgs[2], logTextArea);
-        philosophers[3] = new Philosopher(chopsticks[3], chopsticks[4], 3, "marx", marx, marxImgs[0], marxImgs[1], marxImgs[2], logTextArea);
-        philosophers[4] = new Philosopher(chopsticks[4], chopsticks[0], 4, "kant", kant, kantImgs[0], kantImgs[1], kantImgs[2], logTextArea);
+        philosophers[0] = new Philosopher(chopsticks[0], chopsticks[1], 0, "el-Far", el_Far, el_FarImg[0], el_FarImg[1], el_FarImg[2], logTextArea);
+        philosophers[1] = new Philosopher(chopsticks[1], chopsticks[2], 1, "Ragabola", ragabola, ragabolaImg[0], ragabolaImg[1], ragabolaImg[2], logTextArea);
+        philosophers[2] = new Philosopher(chopsticks[2], chopsticks[3], 2, "Hobz", hobz, hobzImg[0], hobzImg[1], hobzImg[2], logTextArea);
+        philosophers[3] = new Philosopher(chopsticks[3], chopsticks[4], 3, "Ali", ali, aliImg[0], aliImg[1], aliImg[2], logTextArea);
+        philosophers[4] = new Philosopher(chopsticks[4], chopsticks[0], 4, "Caren", caren, carenImg[0], carenImg[1], carenImg[2], logTextArea);
     }
 
-
     public void startAction(ActionEvent actionEvent) {
-        System.out.println("Started");
-        logTextArea.appendText("Started \n");
-
         RUNNING = true;
 
         for (Philosopher p : philosophers) {
@@ -102,9 +96,8 @@ public class Controller implements Initializable {
     }
 
     public void stopAction(ActionEvent actionEvent) {
-        System.out.println("Stopped");
-        logTextArea.appendText("Stopped , wait for each philosopher to finish \n");
-
+        System.out.println("\nStopped Simulation");
+        logTextArea.appendText("\nStopped Simulation, wait for each philosopher to finish \n");
         RUNNING = false;
     }
 

@@ -4,87 +4,85 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="720" maxWidth="1309.0" minHeight="720" minWidth="1107.0" prefHeight="720" prefWidth="1107.0" stylesheets="/app/img/stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
+<AnchorPane id="AnchorPane" maxHeight="720" maxWidth="1309.0" minHeight="685.0" minWidth="919.0" prefHeight="685.0" prefWidth="919.0" stylesheets="/app/img/stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
     <children>
 
-        <Button layoutX="59.0" layoutY="50.0" onAction="#startAction" prefHeight="38" prefWidth="95" text="Start" />
+        <Button layoutX="33.0" layoutY="72.0" onAction="#startAction" prefHeight="38" prefWidth="95" text="Start" />
 
-        <Button layoutX="567.0" layoutY="50.0" onAction="#stopAction" prefHeight="38" prefWidth="95" text="Stop" />
+        <Button layoutX="486.0" layoutY="72.0" onAction="#stopAction" prefHeight="38" prefWidth="95" text="Stop" />
 
-        <ImageView fitHeight="400" fitWidth="400" layoutX="155.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="395.0" fitWidth="417.0" layoutX="86.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/Table.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="aristotle" fitHeight="120" fitWidth="120" layoutX="295.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+              <ImageView fx:id="el_Far" fitHeight="168.0" fitWidth="173.0" layoutX="243.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../img/Aristotle-Thinking.png" />
+                <Image url="@../img/eyad-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="324.0" layoutY="160.0" text="Aristotle Co" />
+        <Label layoutX="269.0" layoutY="202.0" text="el Far" />
 
-        <ImageView fx:id="descartes" fitHeight="120" fitWidth="120" layoutX="555.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="ragabola" fitHeight="168.0" fitWidth="168.0" layoutX="434.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../img/Descartes-Thinking.png" />
+                <Image url="@../img/ragab-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="580.0" layoutY="378.0" text="Descartes Co" />
+        <Label layoutX="468.0" layoutY="398.0" text="Ragabola" />
 
-        <ImageView fx:id="russell" fitHeight="120" fitWidth="120" layoutX="471.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="hobz" fitHeight="168.0" fitWidth="199.0" layoutX="384.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../img/Russell-Thinking.png" />
+                <Image url="@../img/ehab-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="505.0" layoutY="636.0" text="Russel Co" />
+        <Label layoutX="420.0" layoutY="614.0" text="Hobz" />
 
-        <ImageView fx:id="marx" fitHeight="120" fitWidth="120" layoutX="121.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="ali" fitHeight="168.0" fitWidth="153.0" layoutX="53.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../img/Marx-Thinking.png" />
+                <Image url="@../img/ali-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="159.0" layoutY="636.0" text="Marx Co" />
+        <Label layoutX="89.0" layoutY="616.0" prefHeight="42.0" prefWidth="24.0" text="Ali" />
 
-        <ImageView fx:id="kant" fitHeight="120" fitWidth="120" layoutX="35.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="caren" fitHeight="168.0" fitWidth="179.0" layoutX="29.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../img/Kant-Thinking.png" />
+                <Image url="@../img/caren-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="74.0" layoutY="378.0" text="Kant Co" />
+        <Label layoutX="65.0" layoutY="360.0" text="Caren" />
 
-        <ImageView fx:id="chopstick1" fitHeight="80" fitWidth="80" layoutX="397.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="chopstick1" fitHeight="86.0" fitWidth="80" layoutX="507.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/chopstick01.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="chopstick2" fitHeight="80" fitWidth="80" layoutX="431.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="chopstick2" fitHeight="66.0" fitWidth="102.0" layoutX="409.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/chopstick02.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="chopstick3" fitHeight="80" fitWidth="80" layoutX="355.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="chopstick3" fitHeight="109.0" fitWidth="41.0" layoutX="444.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/chopstick03.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="chopstick4" fitHeight="80" fitWidth="80" layoutX="201.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="chopstick4" fitHeight="49.0" fitWidth="102.0" layoutX="412.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/chopstick04.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="chopstick5" fitHeight="80" fitWidth="80" layoutX="241.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="chopstick5" fitHeight="119.0" fitWidth="81.0" layoutX="130.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/chopstick05.png" />
             </image>
         </ImageView>
 
-        <TextArea fx:id="logTextArea" layoutX="695.0" layoutY="14.0" prefHeight="655.0" prefWidth="390.0" />
-
-        <Label layoutX="47.0" layoutY="689.0" text="* When Stopping allow some extra time for the currently eating philosophers to stop" />
+        <TextArea fx:id="logTextArea" layoutX="612.0" layoutY="14.0" prefHeight="655.0" prefWidth="278.0" />
     </children>
 
 </AnchorPane>

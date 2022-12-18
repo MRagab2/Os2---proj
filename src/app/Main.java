@@ -13,7 +13,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("View/view.fxml"));
 
-        primaryStage.setTitle("Dining Philosophers");
+        primaryStage.setTitle("غذاء الفلاسفة");
         primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("img/Table.png")));
         primaryStage.setScene(new Scene(root));
 

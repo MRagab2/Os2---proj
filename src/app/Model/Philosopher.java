@@ -15,7 +15,6 @@ public class Philosopher implements Runnable {
     private int id;
     private String name;
     private State state;
-
     private ImageView headView;
     private Image thinkingImg;
     private Image hungryImg;
@@ -45,16 +44,16 @@ public class Philosopher implements Runnable {
             if (state == State.HUNGRY) {
             }
         }
-        Platform.runLater(() -> loggingConsole.appendText(name + " stopped \n"));
-        System.out.println(name + " stopped");
+        Platform.runLater(() -> loggingConsole.appendText("\n"+name + " stopped \n"));
+        System.out.println("\n"+name + " stopped");
     }
 
     private void think() {
         try {
             if (state == State.THINKING) {
-                System.out.println(name + " is thinking...");
+                System.out.println("\n"+name + " is thinking...");
                 Platform.runLater(() -> {
-                    loggingConsole.appendText(name + " is thinking... \n");
+                    loggingConsole.appendText("\n"+name + " is thinking... \n");
                 });
                 Thread.sleep(Utils.randomIntThink());
                 state = State.HUNGRY;
@@ -67,9 +66,9 @@ public class Philosopher implements Runnable {
     private void hungryWaitingToEat() {
         try {
             if (state == State.HUNGRY) {
-                System.out.println(name + " is hungry...");
+                System.out.println("\n"+name + " is hungry...");
                 Platform.runLater(() -> {
-                    loggingConsole.appendText(name + " is hungry... \n");
+                    loggingConsole.appendText("\n"+name + " is hungry... \n");
                     headView.setImage(hungryImg);
                 });
 
@@ -81,19 +80,18 @@ public class Philosopher implements Runnable {
         }
     }
 
-// To avoid Deadlock
-
+// Avoiding Deadlock
     private void eat() {
         if (leftChopstick.pick(this)){           //left chopstick is available
             try {
                 if (rightChopstick.pick(this)) { //right chopstick is available
                     try {
                         //Eat
-                        System.out.println(name + " is eating...");
+                        System.out.println("\n"+name + " is eating...");
                         state = State.EATING;
 
                         Platform.runLater(() -> {
-                            loggingConsole.appendText(name + " is eating... \n");
+                            loggingConsole.appendText("\n"+name + " is eating... \n");
                             headView.setImage(eatingImg);
                         });
 

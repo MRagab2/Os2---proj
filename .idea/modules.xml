@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DiningPhilosophers_JavaFX.iml" filepath="$PROJECT_DIR$/DiningPhilosophers_JavaFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiningPhilosophers.iml" filepath="$PROJECT_DIR$/DiningPhilosophers.iml" />
     </modules>
   </component>
 </project>
