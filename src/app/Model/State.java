@@ -5,4 +5,3 @@ enum  State {
     HUNGRY,
     EATING
 }
-//

@@ -93,6 +93,7 @@ public class Controller implements Initializable {
     public void startAction(ActionEvent actionEvent) {
         System.out.println("Started");
         logTextArea.appendText("Started \n");
+
         RUNNING = true;
 
         for (Philosopher p : philosophers) {
@@ -103,6 +104,7 @@ public class Controller implements Initializable {
     public void stopAction(ActionEvent actionEvent) {
         System.out.println("Stopped");
         logTextArea.appendText("Stopped , wait for each philosopher to finish \n");
+
         RUNNING = false;
     }
 

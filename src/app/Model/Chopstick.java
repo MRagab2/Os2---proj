@@ -7,6 +7,7 @@ import javafx.scene.image.ImageView;
 import java.util.concurrent.locks.ReentrantLock;
 
 // Chopstick can be picked or dropped by a philospher
+
 public class Chopstick extends ReentrantLock {
 
     private int id;
@@ -50,6 +51,7 @@ public class Chopstick extends ReentrantLock {
                 loggingConsole.appendText(philosopher + " dropped chopstick: " + id + "\n");
             });
             System.out.println(philosopher + " dropped chopstick: " + id);
+
             return true;
         }
         return false;

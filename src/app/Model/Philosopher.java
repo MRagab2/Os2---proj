@@ -82,6 +82,7 @@ public class Philosopher implements Runnable {
     }
 
 // To avoid Deadlock
+
     private void eat() {
         if (leftChopstick.pick(this)){           //left chopstick is available
             try {
