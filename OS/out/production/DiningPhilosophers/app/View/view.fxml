@@ -4,7 +4,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="720" maxWidth="1309.0" minHeight="685.0" minWidth="919.0" prefHeight="685.0" prefWidth="919.0" stylesheets="/app/img/stylesheet.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
+<AnchorPane id="AnchorPane" maxHeight="720" maxWidth="1309.0" minHeight="685.0" minWidth="919.0" prefHeight="685.0" prefWidth="919.0" stylesheets="/app/img/stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
     <children>
 
         <Button layoutX="33.0" layoutY="72.0" onAction="#startAction" prefHeight="38" prefWidth="95" text="Start" />
@@ -17,72 +17,101 @@
             </image>
         </ImageView>
 
+        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="182.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+            <image>
+                <Image url="@../img/full Plate.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="324.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+            <image>
+                <Image url="@../img/full Plate.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="298.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+            <image>
+                <Image url="@../img/full Plate.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="153.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+            <image>
+                <Image url="@../img/full Plate.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="237.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+            <image>
+                <Image url="@../img/full Plate.png" />
+            </image>
+        </ImageView>
               <ImageView fx:id="el_Far" fitHeight="168.0" fitWidth="173.0" layoutX="243.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/eyad-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="269.0" layoutY="202.0" text="el Far" />
+        <Label layoutX="270.0" layoutY="202.0" text="el Far" />
 
-        <ImageView fx:id="ragabola" fitHeight="168.0" fitWidth="168.0" layoutX="434.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="ragabola" fitHeight="168.0" fitWidth="168.0" layoutX="402.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/ragab-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="468.0" layoutY="398.0" text="Ragabola" />
+        <Label layoutX="450.0" layoutY="369.0" text="Ragabola" />
 
-        <ImageView fx:id="hobz" fitHeight="168.0" fitWidth="199.0" layoutX="365.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="hobz" fitHeight="168.0" fitWidth="199.0" layoutX="384.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/ehab-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="396.0" layoutY="636.0" text="Hobz" />
+        <Label layoutX="411.0" layoutY="621.0" text="Hobz" />
 
-        <ImageView fx:id="ali" fitHeight="168.0" fitWidth="153.0" layoutX="53.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="ali" fitHeight="168.0" fitWidth="153.0" layoutX="86.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/ali-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="84.0" layoutY="624.0" prefHeight="42.0" prefWidth="24.0" text="Ali" />
+        <Label layoutX="116.0" layoutY="623.0" prefHeight="42.0" prefWidth="24.0" text="Ali" />
 
-        <ImageView fx:id="caren" fitHeight="168.0" fitWidth="179.0" layoutX="29.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="caren" fitHeight="168.0" fitWidth="179.0" layoutX="44.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/caren-think.png" />
             </image>
         </ImageView>
-        <Label layoutX="65.0" layoutY="360.0" text="Caren" />
+        <Label layoutX="81.0" layoutY="361.0" text="Caren" />
 
-        <ImageView fx:id="fork1" fitHeight="87.0" fitWidth="95.0" layoutX="282.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="fork1" fitHeight="87.0" fitWidth="95.0" layoutX="284.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/fork1.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="fork2" fitHeight="80.0" fitWidth="95.0" layoutX="325.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="fork2" fitHeight="80.0" fitWidth="95.0" layoutX="331.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true" rotate="-7.3">
             <image>
                 <Image url="@../img/fork2.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="fork3" fitHeight="73.0" fitWidth="70.0" layoutX="243.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="fork3" fitHeight="73.0" fitWidth="70.0" layoutX="249.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../img/fork3.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="fork4" fitHeight="80.0" fitWidth="80.0" layoutX="157.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="fork4" fitHeight="80.0" fitWidth="80.0" layoutX="153.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true" rotate="3.1">
             <image>
                 <Image url="@../img/fork4.png" />
             </image>
         </ImageView>
 
-        <ImageView fx:id="fork5" fitHeight="119.0" fitWidth="81.0" layoutX="188.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="fork5" fitHeight="119.0" fitWidth="81.0" layoutX="182.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true" rotate="-2.9">
             <image>
                 <Image url="@../img/fork5.png" />
             </image>
         </ImageView>
 
-        <TextArea fx:id="logTextArea" layoutX="602.0" layoutY="14.0" prefHeight="655.0" prefWidth="288.0" />
+        <TextArea fx:id="logTextArea" editable="false" layoutX="602.0" layoutY="14.0" prefHeight="655.0" prefWidth="288.0" promptText="Dining Philosophers Pro Max" stylesheets="@../img/stylesheet.css" />
     </children>
 
 </AnchorPane>

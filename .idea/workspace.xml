@@ -2,8 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a003afc9-90e0-4000-8c8b-4e4f7723a782" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Os2---proj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/Model/Fork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/Model/Philosopher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/Model/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/Utilities/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/View/view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Aristotle-Eating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Aristotle-Hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Aristotle-Thinking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Descartes-Eating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Descartes-Hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Descartes-Thinking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Kant-Eating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Kant-Hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Kant-Thinking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Marx-Eating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Marx-Hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Marx-Thinking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Russell-Eating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Russell-Hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Russell-Thinking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/Table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/ali-eat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/ali-hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/ali-think.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/caren-eat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/caren-hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/caren-think.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/chopstick01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/chopstick02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/chopstick03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/chopstick04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/chopstick05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/ehab-eat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/ehab-hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/ehab-think.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/empty plate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/eyad-eat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/eyad-hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/eyad-think.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/fork1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/fork2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/fork3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/fork4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/fork5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/full Plate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/ragab-eat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/ragab-hungry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/ragab-think.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS/out/production/DiningPhilosophers/app/img/stylesheet.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +79,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/OS" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DiningPhilosophers_JavaFX" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

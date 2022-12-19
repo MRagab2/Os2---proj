@@ -1,6 +1,22 @@
 .root {
     -fx-background-color: #B2C5EC;
+
 }
+
+#logTextArea {
+   -fx-font-family: "Consolas";
+   -fx-font-size: 18px;
+   -fx-text-fill: #00FF00;
+
+
+}
+#logTextArea .content{
+   -fx-background-color: black ;
+
+
+}
+
+
 .label {
     /*-fx-font-size: 18;*/
 }
