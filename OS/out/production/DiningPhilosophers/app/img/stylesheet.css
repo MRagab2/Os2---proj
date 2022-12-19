@@ -6,13 +6,10 @@
    -fx-font-family: "Consolas";
    -fx-font-size: 17px;
    -fx-text-fill: #00FF00;
-
 }
 #logTextArea .content{
    -fx-background-color: black ;
-         -fx-border-color:#00FF00 ;
-                  -fx-border-width:3px ;
-                                    -fx-border-radius:2px ;
-
-
+   -fx-border-color:#00FF00 ;
+   -fx-border-width:3px ;
+   -fx-border-radius:2px ;
 }
