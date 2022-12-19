@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="DiningPhilosophers">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/release/DiningPhilosophers.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="720" maxWidth="1309.0" minHeight="685.0" minWidth="919.0" prefHeight="685.0" prefWidth="919.0" stylesheets="/app/img/stylesheet.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
+    <children>
+
+        <Button layoutX="33.0" layoutY="72.0" onAction="#startAction" prefHeight="38" prefWidth="95" text="Start" />
+
+        <Button layoutX="486.0" layoutY="72.0" onAction="#stopAction" prefHeight="38" prefWidth="95" text="Stop" />
+
+        <ImageView fitHeight="395.0" fitWidth="417.0" layoutX="86.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/Table.png" />
+            </image>
+        </ImageView>
+
+              <ImageView fx:id="el_Far" fitHeight="168.0" fitWidth="173.0" layoutX="243.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/eyad-think.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="269.0" layoutY="202.0" text="el Far" />
+
+        <ImageView fx:id="ragabola" fitHeight="168.0" fitWidth="168.0" layoutX="434.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/ragab-think.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="468.0" layoutY="398.0" text="Ragabola" />
+
+        <ImageView fx:id="hobz" fitHeight="168.0" fitWidth="199.0" layoutX="365.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/ehab-think.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="396.0" layoutY="636.0" text="Hobz" />
+
+        <ImageView fx:id="ali" fitHeight="168.0" fitWidth="153.0" layoutX="53.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/ali-think.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="84.0" layoutY="624.0" prefHeight="42.0" prefWidth="24.0" text="Ali" />
+
+        <ImageView fx:id="caren" fitHeight="168.0" fitWidth="179.0" layoutX="29.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/caren-think.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="65.0" layoutY="360.0" text="Caren" />
+
+        <ImageView fx:id="fork1" fitHeight="87.0" fitWidth="95.0" layoutX="282.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/fork1.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="fork2" fitHeight="80.0" fitWidth="95.0" layoutX="325.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/fork2.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="fork3" fitHeight="73.0" fitWidth="70.0" layoutX="243.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/fork3.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="fork4" fitHeight="80.0" fitWidth="80.0" layoutX="157.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/fork4.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="fork5" fitHeight="119.0" fitWidth="81.0" layoutX="188.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/fork5.png" />
+            </image>
+        </ImageView>
+
+        <TextArea fx:id="logTextArea" layoutX="602.0" layoutY="14.0" prefHeight="655.0" prefWidth="288.0" />
+    </children>
+
+</AnchorPane>
